@@ -1,0 +1,1423 @@
+das
+insb   (%dx),%es:(%edi)
+imul   $0x6c2d646c,0x2f(%edx),%esp
+imul   $0x6f732e78,0x75(%esi),%ebp
+xor    %cs:(%eax),%al
+add    $0x0,%al
+add    %al,(%eax)
+adc    %al,(%eax)
+add    %al,(%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+inc    %edi
+dec    %esi
+push   %ebp
+add    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%edx)
+add    %al,(%eax)
+add    %al,(%esi)
+add    %al,(%eax)
+add    %bl,(%eax)
+add    %al,(%eax)
+add    $0x0,%al
+add    %al,(%eax)
+adc    $0x0,%al
+add    %al,(%eax)
+add    (%eax),%eax
+add    %al,(%eax)
+inc    %edi
+dec    %esi
+push   %ebp
+add    %ch,0x6ebf6540(%edi)
+cmp    $0xe0,%al
+mov    $0xa8,%bh
+mov    0x6206d60e,%al
+in     $0xb2,%eax
+idivl  (%ecx)
+.byte 0x13
+scas   %es:(%edi),%al
+add    (%eax),%al
+add    %al,(%eax)
+adc    (%eax),%eax
+add    %al,(%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+add    $0x0,%eax
+and    %al,(%edx)
+and    (%eax),%al
+add    %al,(%eax)
+add    %dl,(%ebx)
+add    %al,(%eax)
+add    %bh,(%eax)
+repnz
+.byte 0x8b
+sbb    $0xad,%al
+dec    %ebx
+jecxz  8048190 <__snprintf_chk@plt-0x3d0>
+cwtl
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %dl,0x0(%eax,%eax,1)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %bl,0x0(%esi)
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+mov    $0x0,%dh
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+xchg   %eax,%edx
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %cl,0x0(%ebp)
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+and    %al,(%eax)
+add    %al,(%eax)
+add    %al,%ss:(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %ch,0x0(%ebp)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %al,%cl
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %ch,(%ecx)
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %bh,(%ebx)
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %al,0x0(%ebp)
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+jge    80482b2 <__snprintf_chk@plt-0x2ae>
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+mov    $0x0,%dl
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+jbe    80482d2 <__snprintf_chk@plt-0x28e>
+add    %al,(%eax)
+adc    (%eax),%al
+add    %al,(%eax)
+outsl  %ds:(%esi),(%dx)
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %ah,0x0(%edi)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %dl,(%edx)
+add    %al,(%eax)
+add    %cl,0x5c000000(%ebx)
+mov    $0x4,%al
+or     %al,(%eax,%eax,1)
+add    %al,(%eax)
+adc    %eax,(%eax)
+sbb    %eax,(%eax)
+sbb    (%eax),%al
+add    %al,(%eax)
+dec    %esp
+lea    (%eax,%ecx,1),%eax
+add    $0x0,%al
+add    %al,(%eax)
+adc    %eax,(%eax)
+.byte 0xf
+add    %bl,0x5f(%edi)
+insl   (%dx),%es:(%di)
+outsl  %ds:(%esi),(%dx)
+outsb  %ds:(%esi),(%dx)
+pop    %edi
+jae    804839e <__snprintf_chk@plt-0x1c2>
+popa
+jb     80483a1 <__snprintf_chk@plt-0x1bf>
+pop    %edi
+pop    %edi
+add    %ch,0x62(%ecx,%ebp,2)
+arpl   %bp,(%esi)
+jae    80483a6 <__snprintf_chk@plt-0x1ba>
+cs add %bl,%cs:%ss:0x49(%edi)
+dec    %edi
+pop    %edi
+jae    80483b4 <__snprintf_chk@plt-0x1ac>
+imul   $0x64657375,%fs:0x5f(%esi),%ebp
+add    %bl,0x5f(%edi)
+jo     80483bf <__snprintf_chk@plt-0x1a1>
+imul   $0x68635f66,0x74(%esi),%ebp
+imul   $0x65,(%eax),%eax
+js     80483c2 <__snprintf_chk@plt-0x19e>
+je     804835b <__snprintf_chk@plt-0x205>
+jae    80483c2 <__snprintf_chk@plt-0x19e>
+je     80483cb <__snprintf_chk@plt-0x195>
+outsl  %ds:(%esi),(%dx)
+arpl   %sp,0x6c(%ecx)
+add    %dh,%gs:0x74(%ebx)
+jb     80483db <__snprintf_chk@plt-0x185>
+arpl   %bp,0x72(%eax)
+add    %dh,0x65(%eax)
+jb     80483e3 <__snprintf_chk@plt-0x17d>
+outsl  %ds:(%esi),(%dx)
+jb     8048374 <__snprintf_chk@plt-0x1ec>
+arpl   %sp,%fs:0x65(%edi)
+je     80483ee <__snprintf_chk@plt-0x172>
+gs
+js     80483f1 <__snprintf_chk@plt-0x16f>
+add    %bl,0x5f(%edi)
+jae    80483f6 <__snprintf_chk@plt-0x16a>
+popa
+arpl   %bp,0x5f(%ebx)
+arpl   %bp,0x6b(%eax)
+pop    %edi
+popaw
+imul   $0x6f747274,0x73(%eax,%eax,1),%ebp
+insb   (%dx),%es:(%edi)
+add    %ch,0x73(%ecx)
+popa
+je     804840f <__snprintf_chk@plt-0x151>
+jns    804839d <__snprintf_chk@plt-0x1c3>
+pop    %edi
+pop    %edi
+data16
+jo     8048414 <__snprintf_chk@plt-0x14c>
+imul   $0x68635f66,0x74(%esi),%ebp
+imul   $0x73,(%eax),%eax
+je     8048412 <__snprintf_chk@plt-0x14e>
+gs
+jb     8048423 <__snprintf_chk@plt-0x13d>
+add    %ch,0x6f(%ecx)
+arpl   %si,0x0(%esp,%ebp,2)
+pop    %edi
+pop    %edi
+jae    804842a <__snprintf_chk@plt-0x136>
+jo     8048430 <__snprintf_chk@plt-0x130>
+imul   $0x68635f66,0x74(%esi),%ebp
+imul   $0x63,(%eax),%eax
+insb   (%dx),%es:(%edi)
+outsl  %ds:(%esi),(%dx)
+jae    8048431 <__snprintf_chk@plt-0x12f>
+add    %ch,0x70(%edi)
+outsb  %gs:(%esi),(%dx)
+add    %ah,0x69(%edx)
+outsb  %ds:(%esi),(%dx)
+fs
+je     804843d <__snprintf_chk@plt-0x123>
+js     804844e <__snprintf_chk@plt-0x112>
+outsl  %fs:(%esi),(%dx)
+insl   (%dx),%es:(%edi)
+popa
+imul   $0x696c5f5f,0x0(%esi),%ebp
+bound  %esp,0x5f(%ebx)
+jae    804845e <__snprintf_chk@plt-0x102>
+popa
+jb     8048461 <__snprintf_chk@plt-0xff>
+pop    %edi
+insl   (%dx),%es:(%edi)
+popa
+imul   $0x42494c47,0x0(%esi),%ebp
+inc    %ebx
+pop    %edi
+xor    (%esi),%ch
+xor    $0x0,%al
+inc    %edi
+dec    %esp
+dec    %ecx
+inc    %edx
+inc    %ebx
+pop    %edi
+xor    (%esi),%ch
+xor    %al,(%eax)
+inc    %edi
+dec    %esp
+dec    %ecx
+inc    %edx
+inc    %ebx
+pop    %edi
+xor    (%esi),%ch
+xor    (%esi),%ebp
+xor    $0x0,%al
+add    %al,(%eax)
+add    (%eax),%al
+add    (%eax),%eax
+add    $0x0,%al
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%eax
+add    %al,(%eax)
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%al
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%al
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%eax
+add    (%eax),%eax
+add    %eax,(%eax)
+add    %eax,(%eax)
+add    (%eax),%eax
+adc    %al,(%eax)
+add    %al,(%eax)
+adc    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%eax)
+adc    $0x69,%al
+imul   $0xd3,0x40000,%ecx
+00
+adc    %al,(%eax)
+add    %al,(%eax)
+adc    %ch,0x69(%ecx)
+or     $0x30000,%eax
+fldl   (%eax)
+add    %al,(%eax)
+adc    %al,(%eax)
+add    %al,(%eax)
+je     804848b <__snprintf_chk@plt-0xd5>
+imul   $0x20000,(%ecx),%ecx
+out    %eax,$0x0
+add    %al,(%eax)
+add    %al,(%eax)
+cld
+scas   %es:(%edi),%eax
+add    $0x8,%al
+push   %es
+pop    %es
+add    %al,(%eax)
+pop    %esp
+mov    $0x4,%al
+.byte 0x8
+.byte 0x5
+adc    (%eax),%eax
+or     $0xb0,%al
+add    $0x8,%al
+pop    %es
+add    %eax,(%eax)
+add    %dl,(%eax)
+mov    $0x4,%al
+or     %al,(%edi)
+add    (%eax),%al
+add    %dl,(%eax,%esi,4)
+add    $0x8,%al
+pop    %es
+add    (%eax),%eax
+add    %bl,(%eax)
+mov    $0x4,%al
+or     %al,(%edi)
+add    $0x0,%al
+add    %bl,(%eax,%esi,4)
+add    $0x8,%al
+pop    %es
+add    $0xb0200000,%eax
+add    $0x8,%al
+pop    %es
+push   %es
+add    %al,(%eax)
+and    $0xb0,%al
+add    $0x8,%al
+pop    %es
+pop    %es
+add    %al,(%eax)
+sub    %dh,0x8070804(%eax)
+add    %al,(%eax)
+sub    $0xb0,%al
+add    $0x8,%al
+pop    %es
+or     %eax,(%eax)
+add    %dh,(%eax)
+mov    $0x4,%al
+or     %al,(%edi)
+or     (%eax),%al
+add    %dh,(%eax,%esi,4)
+add    $0x8,%al
+pop    %es
+or     (%eax),%eax
+add    %bh,(%eax)
+mov    $0x4,%al
+or     %al,(%edi)
+or     $0x0,%al
+add    %bh,(%eax,%esi,4)
+add    $0x8,%al
+pop    %es
+or     $0xb0400000,%eax
+add    $0x8,%al
+pop    %es
+push   %cs
+add    %al,(%eax)
+inc    %esp
+mov    $0x4,%al
+or     %al,(%edi)
+sldt   (%eax)
+dec    %eax
+mov    $0x4,%al
+or     %al,(%edi)
+adc    %al,(%eax)
+add    %cl,0x4(%eax,%esi,4)
+or     %al,(%edi)
+adc    %eax,(%eax)
+add    %dl,-0x50(%eax)
+add    $0x8,%al
+pop    %es
+adc    (%eax),%al
+push   %ebx
+sub    $0x8,%esp
+call   8048850 <close@plt+0x1e0>
+add    $0x2ad7,%ebx
+mov    -0x4(%ebx),%eax
+test   %eax,%eax
+je     804853e <__snprintf_chk@plt-0x22>
+call   80485c0 <__gmon_start__@plt>
+add    $0x8,%esp
+pop    %ebx
+ret
+pushl  0x804b004
+jmp    *0x804b008
+add    %al,(%eax)
+jmp    *0x804b00c
+push   $0x0
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b010
+push   $0x8
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b014
+push   $0x10
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b018
+push   $0x18
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b01c
+push   $0x20
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b020
+push   $0x28
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b024
+push   $0x30
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b028
+push   $0x38
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b02c
+push   $0x40
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b030
+push   $0x48
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b034
+push   $0x50
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b038
+push   $0x58
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b03c
+push   $0x60
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b040
+push   $0x68
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b044
+push   $0x70
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b048
+push   $0x78
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b04c
+push   $0x80
+jmp    8048550 <__snprintf_chk@plt-0x10>
+jmp    *0x804b050
+push   $0x88
+jmp    8048550 <__snprintf_chk@plt-0x10>
+push   %ebp
+mov    %esp,%ebp
+push   %esi
+push   %ebx
+and    $0xfffffff0,%esp
+sub    $0x10,%esp
+mov    0xc(%ebp),%esi
+mov    (%esi),%ebx
+movl   $0x2f,0x4(%esp)
+mov    %ebx,(%esp)
+call   8048620 <strrchr@plt>
+movl   $0x8048d8b,0x4(%esp)
+movl   $0x6,(%esp)
+test   %eax,%eax
+lea    0x1(%eax),%edx
+cmovne %edx,%ebx
+mov    %ebx,0x804b064
+call   8048610 <setlocale@plt>
+movl   $0x8048d50,0x4(%esp)
+movl   $0x8048d62,(%esp)
+call   8048640 <bindtextdomain@plt>
+movl   $0x8048d62,(%esp)
+call   8048590 <textdomain@plt>
+cmpl   $0x2,0x8(%ebp)
+je     8048729 <close@plt+0xb9>
+movl   $0x5,0x8(%esp)
+movl   $0x8048d7d,0x4(%esp)
+movl   $0x0,(%esp)
+call   8048570 <dcgettext@plt>
+movl   $0x1,0x4(%esp)
+mov    %eax,0x8(%esp)
+mov    0x804b05c,%eax
+mov    %eax,(%esp)
+call   8048630 <__fprintf_chk@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+mov    0x4(%esi),%eax
+cmpb   $0x2d,(%eax)
+jne    8048787 <close@plt+0x117>
+cmpb   $0x56,0x1(%eax)
+jne    8048787 <close@plt+0x117>
+cmpb   $0x0,0x2(%eax)
+jne    8048787 <close@plt+0x117>
+movl   $0x5,0x8(%esp)
+mov    0x804b064,%ebx
+movl   $0x8048d66,0x4(%esp)
+movl   $0x0,(%esp)
+call   8048570 <dcgettext@plt>
+movl   $0x8048d72,0xc(%esp)
+mov    %ebx,0x8(%esp)
+movl   $0x1,(%esp)
+mov    %eax,0x4(%esp)
+call   8048600 <__printf_chk@plt>
+movl   $0x0,(%esp)
+call   80485d0 <exit@plt>
+movl   $0x0,(%esp)
+call   80489e0 <close@plt+0x370>
+movl   $0xa,0x8(%esp)
+movl   $0x0,0x4(%esp)
+mov    %eax,%ebx
+mov    0x4(%esi),%eax
+mov    %eax,(%esp)
+call   8048660 <strtol@plt>
+movl   $0x5606,0x4(%esp)
+mov    %ebx,(%esp)
+mov    %eax,0x8(%esp)
+mov    %eax,%esi
+call   80485a0 <ioctl@plt>
+test   %eax,%eax
+jne    80487fa <close@plt+0x18a>
+mov    %esi,0x8(%esp)
+movl   $0x5607,0x4(%esp)
+mov    %ebx,(%esp)
+call   80485a0 <ioctl@plt>
+test   %eax,%eax
+je     8048812 <close@plt+0x1a2>
+movl   $0x8048d9e,(%esp)
+call   80485b0 <perror@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+movl   $0x8048d8c,(%esp)
+call   80485b0 <perror@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+movl   $0x0,(%esp)
+call   80485d0 <exit@plt>
+xchg   %ax,%ax
+xor    %ebp,%ebp
+pop    %esi
+mov    %esp,%ecx
+and    $0xfffffff0,%esp
+push   %eax
+push   %esp
+push   %edx
+push   $0x8048d30
+push   $0x8048cc0
+push   %ecx
+push   %esi
+push   $0x8048680
+call   80485f0 <__libc_start_main@plt>
+hlt
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+mov    (%esp),%ebx
+ret
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+mov    $0x804b05f,%eax
+sub    $0x804b05c,%eax
+cmp    $0x6,%eax
+ja     8048871 <close@plt+0x201>
+repz ret
+mov    $0x0,%eax
+test   %eax,%eax
+je     804886f <close@plt+0x1ff>
+push   %ebp
+mov    %esp,%ebp
+sub    $0x18,%esp
+movl   $0x804b05c,(%esp)
+call   *%eax
+leave
+ret
+nop
+lea    0x0(%esi,%eiz,1),%esi
+mov    $0x804b05c,%eax
+sub    $0x804b05c,%eax
+sar    $0x2,%eax
+mov    %eax,%edx
+shr    $0x1f,%edx
+add    %edx,%eax
+sar    %eax
+jne    80488aa <close@plt+0x23a>
+repz ret
+mov    $0x0,%edx
+test   %edx,%edx
+je     80488a8 <close@plt+0x238>
+push   %ebp
+mov    %esp,%ebp
+sub    $0x18,%esp
+mov    %eax,0x4(%esp)
+movl   $0x804b05c,(%esp)
+call   *%edx
+leave
+ret
+nop
+lea    0x0(%esi,%eiz,1),%esi
+cmpb   $0x0,0x804b060
+jne    80488ec <close@plt+0x27c>
+push   %ebp
+mov    %esp,%ebp
+sub    $0x8,%esp
+call   8048860 <close@plt+0x1f0>
+movb   $0x1,0x804b060
+leave
+repz ret
+xchg   %ax,%ax
+mov    0x804af10,%eax
+test   %eax,%eax
+je     8048917 <close@plt+0x2a7>
+mov    $0x0,%eax
+test   %eax,%eax
+je     8048917 <close@plt+0x2a7>
+push   %ebp
+mov    %esp,%ebp
+sub    $0x18,%esp
+movl   $0x804af10,(%esp)
+call   *%eax
+leave
+jmp    8048890 <close@plt+0x220>
+jmp    8048890 <close@plt+0x220>
+xchg   %ax,%ax
+xchg   %ax,%ax
+push   %ebx
+mov    %eax,%ebx
+sub    $0x18,%esp
+movl   $0x2,0x4(%esp)
+mov    %eax,(%esp)
+call   80485e0 <open@plt>
+test   %eax,%eax
+js     8048940 <close@plt+0x2d0>
+add    $0x18,%esp
+pop    %ebx
+ret
+nop
+movl   $0x1,0x4(%esp)
+mov    %ebx,(%esp)
+call   80485e0 <open@plt>
+test   %eax,%eax
+jns    804893a <close@plt+0x2ca>
+mov    %ebx,(%esp)
+movl   $0x0,0x4(%esp)
+call   80485e0 <open@plt>
+mov    $0xffffffff,%edx
+test   %eax,%eax
+cmovs  %edx,%eax
+add    $0x18,%esp
+pop    %ebx
+ret
+lea    0x0(%esi),%esi
+lea    0x0(%edi,%eiz,1),%edi
+push   %ebx
+mov    %eax,%ebx
+sub    $0x28,%esp
+mov    %eax,(%esp)
+movb   $0x0,0x1f(%esp)
+call   8048650 <isatty@plt>
+test   %eax,%eax
+jne    80489a0 <close@plt+0x330>
+add    $0x28,%esp
+xor    %eax,%eax
+pop    %ebx
+ret
+xchg   %ax,%ax
+lea    0x1f(%esp),%eax
+mov    %eax,0x8(%esp)
+movl   $0x4b33,0x4(%esp)
+mov    %ebx,(%esp)
+call   80485a0 <ioctl@plt>
+test   %eax,%eax
+jne    8048997 <close@plt+0x327>
+movzbl 0x1f(%esp),%eax
+sub    $0x1,%eax
+cmp    $0x1,%al
+setbe  %al
+add    $0x28,%esp
+movzbl %al,%eax
+pop    %ebx
+ret
+jmp    80489e0 <close@plt+0x370>
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+push   %esi
+push   %ebx
+sub    $0x14,%esp
+mov    0x20(%esp),%esi
+test   %esi,%esi
+je     8048a18 <close@plt+0x3a8>
+mov    %esi,%eax
+call   8048920 <close@plt+0x2b0>
+test   %eax,%eax
+mov    %eax,%ebx
+js     8048aa8 <close@plt+0x438>
+call   8048980 <close@plt+0x310>
+test   %eax,%eax
+je     8048aa0 <close@plt+0x430>
+add    $0x14,%esp
+mov    %ebx,%eax
+pop    %ebx
+pop    %esi
+ret
+nop
+lea    0x0(%esi,%eiz,1),%esi
+mov    $0x8048dac,%eax
+xor    %esi,%esi
+nop
+call   8048920 <close@plt+0x2b0>
+test   %eax,%eax
+mov    %eax,%ebx
+js     8048a3c <close@plt+0x3cc>
+call   8048980 <close@plt+0x310>
+test   %eax,%eax
+jne    8048a0b <close@plt+0x39b>
+mov    %ebx,(%esp)
+call   8048670 <close@plt>
+add    $0x1,%esi
+mov    0x8048e44(,%esi,4),%eax
+test   %eax,%eax
+jne    8048a20 <close@plt+0x3b0>
+xor    %ebx,%ebx
+mov    %ebx,%eax
+call   8048980 <close@plt+0x310>
+test   %eax,%eax
+jne    8048a0b <close@plt+0x39b>
+add    $0x1,%ebx
+cmp    $0x3,%ebx
+jne    8048a4c <close@plt+0x3dc>
+movl   $0x5,0x8(%esp)
+movl   $0x8048e08,0x4(%esp)
+movl   $0x0,(%esp)
+call   8048570 <dcgettext@plt>
+movl   $0x1,0x4(%esp)
+mov    %eax,0x8(%esp)
+mov    0x804b05c,%eax
+mov    %eax,(%esp)
+call   8048630 <__fprintf_chk@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+mov    %ebx,(%esp)
+call   8048670 <close@plt>
+movl   $0x5,0x8(%esp)
+movl   $0x8048dbc,0x4(%esp)
+movl   $0x0,(%esp)
+call   8048570 <dcgettext@plt>
+mov    %esi,0xc(%esp)
+movl   $0x1,0x4(%esp)
+mov    %eax,0x8(%esp)
+mov    0x804b05c,%eax
+mov    %eax,(%esp)
+call   8048630 <__fprintf_chk@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+lea    0x0(%esi),%esi
+push   %ebp
+push   %edi
+push   %esi
+mov    $0xffffffff,%esi
+push   %ebx
+xor    %ebx,%ebx
+sub    $0x4c,%esp
+mov    %gs:0x14,%eax
+mov    %eax,0x3c(%esp)
+xor    %eax,%eax
+lea    0x2c(%esp),%edi
+mov    $0x8048dac,%eax
+movl   $0x7665642f,0x31(%esp)
+movl   $0x7974742f,0x35(%esp)
+movw   $0x0,0x39(%esp)
+movb   $0x0,0x3b(%esp)
+jmp    8048b77 <close@plt+0x507>
+lea    0x0(%esi,%eiz,1),%esi
+mov    %edi,0x8(%esp)
+movl   $0x4b44,0x4(%esp)
+mov    %ebp,(%esp)
+call   80485a0 <ioctl@plt>
+test   %eax,%eax
+js     8048b8b <close@plt+0x51b>
+mov    0x2c(%esp),%eax
+cmp    $0x3,%eax
+je     8048c88 <close@plt+0x618>
+cmp    $0xffffffff,%esi
+jne    8048b8b <close@plt+0x51b>
+cmp    $0x1,%eax
+jne    8048b8b <close@plt+0x51b>
+mov    %ebp,%esi
+add    $0x1,%ebx
+mov    0x8048e44(,%ebx,4),%eax
+test   %eax,%eax
+je     8048ba1 <close@plt+0x531>
+call   8048920 <close@plt+0x2b0>
+test   %eax,%eax
+mov    %eax,%ebp
+js     8048b69 <close@plt+0x4f9>
+call   8048980 <close@plt+0x310>
+test   %eax,%eax
+jne    8048b38 <close@plt+0x4c8>
+add    $0x1,%ebx
+mov    %ebp,(%esp)
+call   8048670 <close@plt>
+mov    0x8048e44(,%ebx,4),%eax
+test   %eax,%eax
+jne    8048b77 <close@plt+0x507>
+mov    $0x1,%ebx
+lea    0x39(%esp),%edi
+jmp    8048bed <close@plt+0x57d>
+lea    0x0(%esi,%eiz,1),%esi
+lea    0x2c(%esp),%edx
+mov    %edx,0x8(%esp)
+movl   $0x4b44,0x4(%esp)
+mov    %ebp,(%esp)
+call   80485a0 <ioctl@plt>
+test   %eax,%eax
+js     8048c36 <close@plt+0x5c6>
+mov    0x2c(%esp),%eax
+cmp    $0x3,%eax
+je     8048c88 <close@plt+0x618>
+cmp    $0xffffffff,%esi
+jne    8048c36 <close@plt+0x5c6>
+cmp    $0x1,%eax
+jne    8048c36 <close@plt+0x5c6>
+mov    %ebp,%esi
+add    $0x1,%ebx
+cmp    $0xd,%ebx
+je     8048c46 <close@plt+0x5d6>
+mov    %ebx,0x14(%esp)
+movl   $0x8048dce,0x10(%esp)
+movl   $0x3,0xc(%esp)
+movl   $0x1,0x8(%esp)
+movl   $0x3,0x4(%esp)
+mov    %edi,(%esp)
+call   8048560 <__snprintf_chk@plt>
+lea    0x31(%esp),%eax
+call   8048920 <close@plt+0x2b0>
+test   %eax,%eax
+mov    %eax,%ebp
+js     8048be5 <close@plt+0x575>
+call   8048980 <close@plt+0x310>
+test   %eax,%eax
+nop
+jne    8048bb0 <close@plt+0x540>
+mov    %ebp,(%esp)
+add    $0x1,%ebx
+call   8048670 <close@plt>
+cmp    $0xd,%ebx
+jne    8048bed <close@plt+0x57d>
+movl   $0x5,0x8(%esp)
+movl   $0x8048e08,0x4(%esp)
+movl   $0x0,(%esp)
+call   8048570 <dcgettext@plt>
+movl   $0x1,0x4(%esp)
+mov    %eax,0x8(%esp)
+mov    0x804b05c,%eax
+mov    %eax,(%esp)
+call   8048630 <__fprintf_chk@plt>
+movl   $0x1,(%esp)
+call   80485d0 <exit@plt>
+nop
+cmp    $0xffffffff,%esi
+je     8048c95 <close@plt+0x625>
+mov    %esi,(%esp)
+call   8048670 <close@plt>
+mov    0x3c(%esp),%edx
+xor    %gs:0x14,%edx
+mov    %ebp,%eax
+jne    8048cac <close@plt+0x63c>
+add    $0x4c,%esp
+pop    %ebx
+pop    %esi
+pop    %edi
+pop    %ebp
+ret
+call   8048580 <__stack_chk_fail@plt>
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+xchg   %ax,%ax
+nop
+push   %ebp
+push   %edi
+xor    %edi,%edi
+push   %esi
+push   %ebx
+call   8048850 <close@plt+0x1e0>
+add    $0x2335,%ebx
+sub    $0x1c,%esp
+mov    0x30(%esp),%ebp
+lea    -0xf4(%ebx),%esi
+call   8048520 <__snprintf_chk@plt-0x40>
+lea    -0xf8(%ebx),%eax
+sub    %eax,%esi
+sar    $0x2,%esi
+test   %esi,%esi
+je     8048d19 <close@plt+0x6a9>
+lea    0x0(%esi),%esi
+mov    0x38(%esp),%eax
+mov    %ebp,(%esp)
+mov    %eax,0x8(%esp)
+mov    0x34(%esp),%eax
+mov    %eax,0x4(%esp)
+call   *-0xf8(%ebx,%edi,4)
+add    $0x1,%edi
+cmp    %esi,%edi
+jne    8048cf8 <close@plt+0x688>
+add    $0x1c,%esp
+pop    %ebx
+pop    %esi
+pop    %edi
+pop    %ebp
+ret
+jmp    8048d30 <close@plt+0x6c0>
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+repz ret
+xchg   %ax,%ax
+push   %ebx
+sub    $0x8,%esp
+call   8048850 <close@plt+0x1e0>
+add    $0x22c3,%ebx
+add    $0x8,%esp
+pop    %ebx
+ret
+add    (%eax),%eax
+add    %eax,(%eax)
+add    (%eax),%al
+das
+jne    8048dc6 <_IO_stdin_used+0x7a>
+jb     8048d84 <_IO_stdin_used+0x38>
+jae    8048dbf <_IO_stdin_used+0x73>
+popa
+jb     8048dbf <_IO_stdin_used+0x73>
+das
+insb   (%dx),%es:(%edi)
+outsl  %ds:(%esi),(%dx)
+arpl   %sp,0x6c(%ecx)
+add    %ch,%gs:0x62(%ebx)
+add    %ah,%fs:0x72662073
+outsl  %ds:(%esi),(%dx)
+insl   (%dx),%es:(%edi)
+and    %ah,0x6b000a73
+bound  %esp,0x31(%eax,%eiz,1)
+xor    %esi,%cs:0x7500352e
+jae    8048de1 <_IO_stdin_used+0x95>
+cmp    %gs:(%bx,%si),%ah
+arpl   %bp,0x76(%eax)
+je     8048da9 <_IO_stdin_used+0x5d>
+dec    %esi
+or     (%eax),%al
+arpl   %bp,0x76(%eax)
+je     8048dcb <_IO_stdin_used+0x7f>
+and    %dl,0x54(%esi)
+pop    %edi
+inc    %ecx
+inc    %ebx
+push   %esp
+dec    %ecx
+push   %esi
+inc    %ecx
+push   %esp
+inc    %ebp
+add    %dl,0x54(%esi)
+pop    %edi
+push   %edi
+inc    %ecx
+dec    %ecx
+push   %esp
+inc    %ecx
+inc    %ebx
+push   %esp
+dec    %ecx
+push   %esi
+inc    %ebp
+add    %ch,(%edi)
+jo     8048e21 <_IO_stdin_used+0xd5>
+outsl  %ds:(%esi),(%dx)
+arpl   %bp,(%edi)
+jae    8048e19 <_IO_stdin_used+0xcd>
+insb   (%dx),%es:(%edi)
+data16
+das
+data16
+fs
+das
+xor    %al,(%eax)
+inc    %ebx
+outsl  %ds:(%esi),(%dx)
+jne    8048e2c <_IO_stdin_used+0xe0>
+outsb  %fs:(%esi),(%dx)
+daa
+je     8048de5 <_IO_stdin_used+0x99>
+outsl  %ds:(%esi),(%dx)
+jo     8048e2d <_IO_stdin_used+0xe1>
+outsb  %ds:(%esi),(%dx)
+and    %ah,0x25000a73
+add    %ch,%fs:(%edi)
+fs
+gs
+jbe    8048e05 <_IO_stdin_used+0xb9>
+je     8048e4c <_IO_stdin_used+0x100>
+jns    8048dda <_IO_stdin_used+0x8e>
+das
+fs
+gs
+jbe    8048e0e <_IO_stdin_used+0xc2>
+je     8048e55 <_IO_stdin_used+0x109>
+jns    8048e13 <_IO_stdin_used+0xc7>
+add    %ch,(%edi)
+fs
+gs
+jbe    8048e18 <_IO_stdin_used+0xcc>
+jbe    8048e4e <_IO_stdin_used+0x102>
+das
+xor    %al,(%eax)
+das
+fs
+gs
+jbe    8048e22 <_IO_stdin_used+0xd6>
+jae    8048e6e <_IO_stdin_used+0x122>
+jae    8048e6b <_IO_stdin_used+0x11f>
+je     8048e72 <_IO_stdin_used+0x126>
+add    %ch,(%edi)
+fs
+gs
+jbe    8048e2e <_IO_stdin_used+0xe2>
+arpl   %bp,0x6e(%edi)
+jae    8048e73 <_IO_stdin_used+0x127>
+insb   (%dx),%es:(%edi)
+add    %al,%gs:(%eax)
+inc    %ebx
+outsl  %ds:(%esi),(%dx)
+jne    8048e78 <_IO_stdin_used+0x12c>
+outsb  %fs:(%esi),(%dx)
+daa
+je     8048e31 <_IO_stdin_used+0xe5>
+addr16
+gs
+je     8048e35 <_IO_stdin_used+0xe9>
+popa
+and    %ah,0x69(%esi)
+insb   (%dx),%es:(%edi)
+and    %ah,%gs:0x73(%ebp,%eiz,2)
+arpl   %si,0x69(%edx)
+jo     8048e98 <_IO_stdin_used+0x14c>
+outsl  %ds:(%esi),(%dx)
+jb     8048e47 <_IO_stdin_used+0xfb>
+jb     8048e8e <_IO_stdin_used+0x142>
+data16
+gs
+jb     8048e9f <_IO_stdin_used+0x153>
+imul   $0x206f7420,0x67(%esi),%ebp
+je     8048e9e <_IO_stdin_used+0x152>
+and    %ah,%gs:0x6f(%ebx)
+outsb  %ds:(%esi),(%dx)
+jae    8048eac <_IO_stdin_used+0x160>
+insb   (%dx),%es:(%edi)
+or     %gs:(%eax),%al
+add    %al,(%eax)
+add    %ch,-0x722ef7fc(%ebp,%ecx,4)
+add    $0x8,%al
+fimull -0x721bf7fc(%ebp)
+add    $0x8,%al
+out    %al,(%dx)
+lea    (%eax,%ecx,1),%eax
+cli
+lea    (%eax,%ecx,1),%eax
+add    %al,(%eax)
+add    %ebx,(%ebx)
+add    (%ebx),%edi
+dec    %eax
+add    %al,(%eax)
+add    %cl,(%eax)
+add    %al,(%eax)
+add    %dh,%al
+idiv   %bh
+jmp    *0x0(%eax,%eax,1)
+add    %ah,(%eax)
+clc
+(bad)
+decl   -0x40000000(%eax)
+cli
+(bad)
+ljmp   *0x20000000(%eax)
+sti
+(bad)
+call   *%esp
+add    %al,(%eax)
+add    %al,0xfffffb(%eax)
+add    %eax,(%eax)
+add    %dl,0x2cfffffc(%eax)
+add    %eax,(%eax)
+add    %ah,-0x2(%eax)
+(bad)
+ljmp   *0x0(%ecx,%eax,1)
+add    %dl,%al
+(bad)
+(bad)
+.byte 0xff
+test   $0x1,%al
+adc    $0x0,%al
+add    %al,(%eax)
+add    %al,(%eax)
+add    %al,(%eax)
+add    %edi,0x52(%edx)
+add    %al,(%ecx)
+jl     8048ec3 <_IO_stdin_used+0x177>
+add    %ebx,(%ebx)
+or     $0x4,%al
+add    $0x88,%al
+add    %eax,(%eax)
+add    %ah,(%eax)
+add    %al,(%eax)
+add    %bl,(%eax,%eax,1)
+add    %al,(%eax)
+test   %dh,%dh
+(bad)
+pushl  (%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+push   %cs
+or     %al,0xe(%esi)
+or     $0x4a,%al
+ud2
+je     8048ee3 <_IO_stdin_used+0x197>
+js     8048ee1 <_IO_stdin_used+0x195>
+aas
+sbb    (%ebx),%bh
+sub    (%edx),%dh
+and    $0x22,%al
+sbb    $0x0,%al
+add    %al,(%eax)
+inc    %eax
+add    %al,(%eax)
+add    %dl,-0x61000009(%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+inc    %ecx
+push   %cs
+or     %al,0x50d4202(%ebp)
+dec    %eax
+xchg   %al,(%ebx)
+addl   $0x0,(%eax,%eax,1)
+sub    %al,(%eax)
+add    %al,(%eax)
+pusha
+add    %al,(%eax)
+add    %dl,(%eax)
+cli
+(bad)
+call   *0x0(%ebx)
+add    %al,(%eax)
+add    %al,0xe(%ecx)
+or     %al,0x200e4502(%ebx)
+push   %edi
+or     (%esi),%cl
+or     %al,-0x3d(%ecx)
+push   %cs
+add    $0x42,%al
+or     0xe(%ecx),%esi
+or     %al,-0x3d(%ecx)
+push   %cs
+add    $0x0,%al
+add    %ch,(%eax)
+add    %al,(%eax)
+add    %cl,-0x5bc0000(%eax,%eax,1)
+(bad)
+call   *0x0(%ecx)
+add    %al,(%eax)
+add    %al,0xe(%ecx)
+or     %al,0x300e4502(%ebx)
+push   %esp
+or     (%esi),%cl
+or     %al,-0x3d(%ebx)
+push   %cs
+add    $0x43,%al
+or     0x8(%esi,%ecx,1),%ebp
+inc    %esp
+ret
+push   %cs
+add    $0x0,%al
+add    %ch,(%eax)
+add    %al,(%eax)
+add    %bh,0x78000000(%eax)
+cli
+(bad)
+decl   0x1
+inc    %ecx
+push   %cs
+or     %al,0xc0e4102(%esi)
+addl   $0x43,(%ebx)
+push   %cs
+and    %ch,0xa(%ecx)
+push   %cs
+or     $0x43,%al
+ret
+push   %cs
+or     %al,-0x3a(%ecx)
+push   %cs
+add    $0x46,%al
+or     (%eax,%eax,1),%edi
+add    %al,(%eax)
+in     $0x0,%al
+add    %al,(%eax)
+pop    %esp
+sti
+(bad)
+inc    %ecx
+add    %eax,(%eax)
+add    %al,(%eax)
+inc    %ecx
+push   %cs
+or     %al,0xc0e4102(%ebp)
+xchg   %eax,(%ebx)
+inc    %ecx
+push   %cs
+adc    %al,0x140e4604(%esi)
+addl   $0xffffffa9,0x3600e45
+add    %ecx,(%edx)
+push   %cs
+adc    $0x41,%al
+ret
+push   %cs
+adc    %al,-0x3a(%ecx)
+push   %cs
+or     $0x41,%al
+(bad)
+push   %cs
+or     %al,-0x3b(%ecx)
+push   %cs
+add    $0x41,%al
+or     (%eax),%edi
+add    %al,(%eax)
+add    %ah,(%ecx,%eax,1)
+add    %al,(%eax)
+in     (%dx),%al
+cld
+(bad)
+jmp    *0x0(%ecx)
+add    %al,(%eax)
+add    %al,0xe(%ecx)
+or     %al,0xc0e4102(%ebp)
+xchg   %eax,(%ebx)
+inc    %ebx
+push   %cs
+adc    %al,0x140e4104(%esi)
+addl   $0x48,0x2300e4e
+push   %cs
+adc    $0x41,%al
+ret
+push   %cs
+adc    %al,-0x3a(%ecx)
+push   %cs
+or     $0x41,%al
+(bad)
+push   %cs
+or     %al,-0x3b(%ecx)
+push   %cs
+add    $0x10,%al
+add    %al,(%eax)
+add    %ah,0x1(%eax)
+add    %al,(%eax)
+and    %bh,%ch
+(bad)
+incl   (%edx)
+lock mov %al,(%eax,%ecx,1)
+.byte 0xd0
+mov    %al,(%eax,%ecx,1)
+add    %al,(%eax)
+add    %eax,(%eax)
+add    %al,(%eax)
+adc    %al,(%eax)
+add    %al,(%eax)
+or     $0x0,%al
+add    %al,(%eax)
+and    %al,0xd0804(%ebp)
+add    %al,(%eax)
+xor    $0x8d,%al
+add    $0x8,%al
+sbb    %eax,(%eax)
+add    %al,(%eax)
+or     %ch,0x1b0804(%edi)
+add    %al,(%eax)
+add    $0x0,%al
+add    %al,(%eax)
+sbb    (%eax),%al
+add    %al,(%eax)
+or     $0xaf,%al
+add    $0x8,%al
+sbb    $0x0,%al
+add    %al,(%eax)
+add    $0x0,%al
+add    %al,(%eax)
+cmc
+(bad)
+ljmp   *-0x54(%edi)
+addl   $0x5,(%eax,%ecx,1)
+and    %al,0x60804(%ebx)
+add    %al,(%eax)
+rolb   0xa0804(%ecx)
+add    %al,(%eax)
+repz add %al,(%eax)
+add    %cl,(%ebx)
+add    %al,(%eax)
+add    %dl,(%eax)
+add    %al,(%eax)
+add    %dl,0x0
+add    %al,(%eax)
+add    %al,(%ebx)
+add    %al,(%eax)
+add    %al,(%eax)
+mov    $0x4,%al
+or     %al,(%edx)
+add    %al,(%eax)
+add    %dl,0x14000000(%eax)
+add    %al,(%eax)
+add    %dl,(%ecx)
+add    %al,(%eax)
+add    %dl,(%edi)
+add    %al,(%eax)
+add    %dl,0x11080484(%eax)
+add    %al,(%eax)
+add    %al,0x12080484(%eax)
+add    %al,(%eax)
+add    %dl,(%eax)
+add    %al,(%eax)
+add    %dl,(%ebx)
+add    %al,(%eax)
+add    %cl,(%eax)
+add    %al,(%eax)
+add    %bh,%dh
+(bad)
+ljmp   *0x40(%edi)
+test   %al,(%eax,%ecx,1)
+(bad)
+(bad)
+ljmp   *0x1(%edi)
+add    %al,(%eax)
+add    %dh,%al
+(bad)
+ljmp   *0x14(%edi)
+test   %al,(%eax,%ecx,1)
+add    %al,(%eax)
+adc    $0xaf,%al
+add    $0x8,%al
+test   %ax,(%eax,%ecx,1)
+jbe    804af97 <_IO_stdin_used+0x224b>
+add    $0x8,%al
+xchg   %al,-0x7a69f7fc(%ebp)
+add    $0x8,%al
+cmpsb  %es:(%edi),%ds:(%esi)
+test   %eax,(%eax,%ecx,1)
+mov    $0x85,%dh
+add    $0x8,%al
+movb   $0x4,-0x7a29f7fc(%ebp)
+or     %ah,%dh
+test   %eax,(%eax,%ecx,1)
+testb  $0x4,-0x79f9f7fc(%ebp)
+or     %dl,(%esi)
+xchg   %al,(%eax,%ecx,1)
+xchg   %al,%es:(%eax,%ecx,1)
+xchg   %al,%ss:(%eax,%ecx,1)
+inc    %esi
+xchg   %al,(%eax,%ecx,1)
+push   %esi
+xchg   %al,(%eax,%ecx,1)
+data16
+xchg   %al,(%eax,%ecx,1)
+jbe    804afd8 <_IO_stdin_used+0x228c>
+add    $0x8,%al
+xor    $0x30,%al
+ss
+xor    $0x65366662,%eax
+xor    0x65(%ebx),%esp
+xor    %ah,0x37(%edx)
+popa
+cmp    %ah,0x30(%ecx)
+xor    %ah,0x64(%ebp)
+xor    %dh,%ss:(%esi)
+xor    %ss:0x35(%ebp),%ah
+bound  %esi,(%edx)
+data16
+aaa
+xor    (%ecx),%edi
+xor    %esi,(%ebx)
+popa
+gs cs fs bound %esi,%cs:%fs:%gs:0x67(%ebp)
+add    %al,(%eax)
+add    %al,(%eax)
+jmp    *(%eax)
+fs
+inc    %eax

@@ -1,5 +1,5 @@
 # encoding: utf-8
-COMPILED_PATH = "/home/stas/Coursach/Выборки/compiled"
+COMPILED_PATH = "/home/stas/Coursach/Выборки/compiled/viruses"
 PATH = "/home/stas/Coursach/Выборки/Вирусы"
 
 def colorize(text, color_code)
