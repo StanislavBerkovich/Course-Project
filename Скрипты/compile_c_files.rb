@@ -1,6 +1,6 @@
 # encoding: utf-8
-COMPILED_PATH = "/home/stas/Coursach/Выборки/compiled/viruses"
-PATH = "/home/stas/Coursach/Выборки/Вирусы"
+COMPILED_PATH = "C:/Users/stani/Documents/Course-Project/Выборки/compiled/win-vir"
+PATH = "C:/Users/stani/Documents/Course-Project/Выборки/win-vir"
 
 def colorize(text, color_code)
   "\e[#{color_code}m#{text}\e[0m"
@@ -13,11 +13,13 @@ def green(text)
  colorize(text, 32)
 end
 
+
 file_pathes = Dir["#{PATH}/*.c"]
+
 report = []
 file_pathes.each do |file_path|
 	name = File.basename(file_path, '.c')
-	if system("gcc -w -o #{COMPILED_PATH}/#{name} #{file_path}")
+	if system("g++ -w -o #{COMPILED_PATH}/#{name} #{file_path}")
 		report << green("OK: #{name}")
 	else
 	    report << red("FAILED: #{name}")

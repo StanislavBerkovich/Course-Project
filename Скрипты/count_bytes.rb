@@ -14,9 +14,9 @@ def hist_of_bytes(file_pathes)
 	res.map { |el| el.to_f / sum }
 end
 
-VIRUSES_PATH = '/home/stas/Coursach/Выборки/compiled/viruses'
-NORMAL_PATH = '/home/stas/Coursach/Выборки/compiled/normal'
-REPORT_PATH = '/home/stas/Coursach/Отчеты'
+VIRUSES_PATH = 'C:/Users/stani/Documents/Course-Project/Выборки/compiled/win-vir'
+NORMAL_PATH = 'C:/Users/stani/Documents/Course-Project/Выборки/compiled/win-nor'
+REPORT_PATH = 'C:/Users/stani/Documents/Course-Project/Отчеты'
 
 
 shellcodes = Dir["#{VIRUSES_PATH}/*"]
